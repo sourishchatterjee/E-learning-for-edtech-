@@ -19,7 +19,7 @@ import PopularCourses from "../components/homeComponent/popularCourses/PopularCo
 import CoursesByCategory from "../components/homeComponent/PopularTopic/CoursesByCategory";
 import Coursesall from '../pages/CousesPage/Coursesall'
 import CourseDetails from "../pages/courseDetails/CourseDetails"; 
-import Lectures from "../pages/lectures/lectures";
+import Lectures from "../pages/lectures/Lectures";
 import AboutUs from '../pages/AboutUs/AboutUs';
 import ContactUs from '../pages/ContactUs/ContactUs'
 import Quizzes from "../pages/quizzes/Quizzes";
@@ -35,7 +35,7 @@ import EditCourse from "../pages/Admin/pages/EditCourses/EditCourse";
 import ManagaeComments from "../pages/Admin/pages/ManageComments/ManagaeComments";
 import AddQustions from "../pages/Admin/pages/AddQuizesPage/AddQustions";
 //import RequireAdmin from "./RequireAdmin";
-import AdminRoute from "../../src/pages/Admin/components/AdminRoute"
+import AdminRoute from "../pages/Admin/components/AdminRoute";
 
 const appRouter = createBrowserRouter([
   {

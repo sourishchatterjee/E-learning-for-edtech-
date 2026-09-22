@@ -9,7 +9,7 @@
 
 
 .ai-course {
-    background-image: url(../courseDetails/digital-art-ai-technology-background\ 2.png);
+    background-image: url('/courseDetails/digital-art-ai-technology-background 2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,7 @@
 
 .head-part1::before {
     content: "";
-    background: url(../courseDetails/check\ 1.png);
+    background: url('/courseDetails/check 1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,7 +214,7 @@
 
 
 .carriculam {
-    background-image: url(../courseDetails/footer-bg2\ 3.png);
+    background-image: url('/courseDetails/footer-bg2 3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -304,7 +304,7 @@
 }
 
 .exclusive-learning {
-    background-image: url(../courseDetails/arch-bg-shape\ 3.png);
+    background-image: url('/courseDetails/arch-bg-shape 3.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@
 }
 
 .counsellor {
-    background-image: url('../courseDetails/blue-toned-collection-paper-sheets-with-copy-space\ 1.png');
+    background-image: url('/courseDetails/blue-toned-collection-paper-sheets-with-copy-space 1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
