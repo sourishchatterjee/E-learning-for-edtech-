@@ -1,0 +1,200 @@
+.admin-header {
+  background-color: #344d6f;
+  color: #f9fafb;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 50;
+}
+
+.admin-nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-section .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #036d4fdc;
+}
+
+.brand-text h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.brand-text p {
+  font-size: 12px;
+  margin: 0;
+  color: #060b14;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #f9fafb;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0572de;
+}
+
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-initials {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.profile-dropdown {
+  position: relative;
+}
+
+.profile-role {
+  font-size: 17px;
+  color: #2d71e5;
+}
+
+/* .dropdown-arrow {
+  margin-left: 8px;
+} */
+.dropdown-menu-toggle {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #374151;
+  color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  min-width: 220px;
+  z-index: 9999; /* Important: makes it appear above everything */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.dropdown-menu-toggle .dropdown-item {
+  color: #f9fafb;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdown-menu-toggle .dropdown-item:hover {
+  background-color: #4b5563;
+}
+
+.dropdown-menu-toggle .btn {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.mobile-search {
+  padding: 10px;
+  background-color: #1f2937;
+}
+
+.search-input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .profile-info {
+    display: none;
+  }
+}
+
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-avatar-large {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.profile-initials-large {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #139574;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.profile-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.profile-role {
+  font-size: 12px;
+  color: #d1d5db;
+}

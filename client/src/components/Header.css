@@ -1,0 +1,86 @@
+ .navbar {
+  background-color: #406083 !important;
+}
+.navbar .nav-link.active {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.navbar .nav-link {
+  color: rgb(251, 248, 248) !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #f0f3f6 !important;
+}
+
+.navbar .custom-auth-btn-filled,
+.navbar .custom-auth-btn-outline {
+  display: inline-block;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 6px 18px;
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.navbar .custom-auth-btn-filled {
+  background-color: #fdcb6e;
+  color: #000;
+  border: none;
+}
+
+.navbar .custom-auth-btn-filled:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.navbar .custom-auth-btn-outline:hover {
+  border: 1px solid #f1e7e6;
+}
+
+.navbar .custom-auth-btn-outline:hover {
+  background-color: whitesmoke;
+  color: #ff7f66;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+
+  .rounded-circle {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar .custom-auth-btn-filled,
+  .navbar .custom-auth-btn-outline {
+    font-size: 14px;
+    padding: 5px 12px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .rounded-circle {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .navbar .custom-auth-btn-filled,
+  .navbar .custom-auth-btn-outline {
+    width: 100%;
+    margin-top: 5px;
+  }
+} 
+
+

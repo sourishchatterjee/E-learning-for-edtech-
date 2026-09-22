@@ -1,0 +1,338 @@
+/* Overall Section
+.students {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+ .students_say {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.about_picture img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+
+.about_text {
+  flex: 1;
+  min-width: 300px;
+}
+
+
+.about_text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+
+.knowledge {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+
+.wd {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.pic1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+
+.pic2 .name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #222;
+}
+
+.pic2 .web {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 5px;
+}
+.stars {
+  display: block;
+  margin-top: 5px;
+  color: gold;
+  font-size: 1.2rem;
+}
+
+
+.slick-dots li button:before {
+  color: #007bff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0056b3;
+}
+
+
+@media (max-width: 1024px) {
+  .students_say {
+    gap: 30px;
+  }
+
+  .about_text h2 {
+    font-size: 2.2rem;
+  }
+
+  .knowledge {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .students_say {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .about_picture img {
+    max-width: 100%;
+  }
+
+  .about_text h2 {
+    font-size: 2rem;
+  }
+
+  .knowledge {
+    font-size: 1rem;
+  }
+
+  .pic1 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stars {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_text h2 {
+    font-size: 1.7rem;
+  }
+
+  .knowledge {
+    font-size: 0.95rem;
+  }
+
+  .pic2 .name {
+    font-size: 1rem;
+  }
+
+  .pic2 .web {
+    font-size: 0.85rem;
+  }
+}  
+   /* Overall Section */
+.students {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Container Flexbox */
+.students_say {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Left side image */
+.about_picture {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about_picture img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Right side text and slider */
+.about_text {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Heading Style */
+.about_text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Primary colored text */
+.text-primary {
+  color: #007bff;
+}
+
+/* Each testimonial text */
+.knowledge {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Wrapper for user image and details */
+.wd {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* User Image */
+.pic1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+/* Name and Course Details */
+.pic2 .name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #222;
+}
+
+.pic2 .web {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Star Ratings */
+.stars {
+  display: block;
+  margin-top: 5px;
+  color: gold;
+  font-size: 1.2rem;
+}
+
+/* Slider dots customization */
+.slick-dots li button:before {
+  color: #007bff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0056b3;
+}
+
+/* ========== Responsive Design ========== */
+
+@media (max-width: 1024px) {
+  .students_say {
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about_text h2 {
+    font-size: 2.2rem;
+  }
+
+  .knowledge {
+    font-size: 1.1rem;
+  }
+
+  .about_text,
+  .about_picture {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .students_say {
+    padding: 0 20px;
+  }
+
+  .about_text h2 {
+    font-size: 2rem;
+  }
+
+  .knowledge {
+    font-size: 1rem;
+  }
+
+  .pic1 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stars {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_text h2 {
+    font-size: 1.7rem;
+  }
+
+  .knowledge {
+    font-size: 0.95rem;
+  }
+
+  .pic2 .name {
+    font-size: 1rem;
+  }
+
+  .pic2 .web {
+    font-size: 0.85rem;
+  }
+
+  .wd {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

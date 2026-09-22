@@ -1,0 +1,112 @@
+
+    /* start of Enrolled Courses */
+    :root {
+        --sidebar-bg: #0d1830;
+        --sidebar-text: #ffffff;
+        --primary-purple: #d9c3f4;
+        --primary-orange: #ffdac1;
+        --primary-green: #d7f5e7;
+        --primary-blue: #d6ebf7;
+        --orange: #F38844;
+    }
+    .enroll_header {
+        font-family: "Lexend", sans-serif;
+    }
+    
+    .enroll_header p {
+        font-family: "Lexend", sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    
+    
+    .enroll_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    @media screen and (max-width:1200px) {
+        .enroll_box {
+           margin-bottom: 30px;
+        }
+        
+    }
+    
+    .enroll-card {
+        max-width: 450px;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        transition: transform 0.4s ease;
+    }
+    .enroll-card .enroll-card-img{
+        overflow: hidden;
+        height: 220px;
+    }
+    .enroll-card .enroll-card-img img{
+        transition: all 0.4s ease;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .enroll-card .enroll-card-img img:hover{
+        transform: scale(1.2);
+    }
+    
+    
+    .enroll-card:hover {
+        transform: translateY(-10px);
+    }
+    
+    .card-e {
+        padding: 20px;
+        font-family: "Lexend", sans-serif;
+    }
+    
+    .card-e-title {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .card-e-text {
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    
+    .search_enroll {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 30px;
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        font-family: "Lexend", sans-serif;
+    }
+    
+    .btn-e {
+        background-color: var(--orange);
+        color: white;
+    }
+    
+    .btn-e:hover {
+        border: 2px solid var(--orange) !important;
+    }
+    
+    .btn-f {
+        border: 2px solid var(--orange);
+        color: var(--orange);
+    }
+    
+    .btn-f:hover {
+        background-color: var(--orange);
+        color: white;
+    }
+    
+    .ratings i {
+        color: var(--orange);
+        margin: 0 3px;
+    }
+    
+        
+        /* end of Enrolled Courses */

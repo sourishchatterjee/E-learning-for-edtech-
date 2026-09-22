@@ -1,0 +1,108 @@
+.bg {
+    height: 100%;
+    background-color: #f8f9fa;
+    background-image: url(./../../../../assets/register/medium-shot-woman-working-late-night.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .background-image {
+    min-height: 600px;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  li{list-style: none;}
+  
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 4px rgba(37, 117, 252, 0.15);
+    border-color: #2575fc;
+    background-color: #fff;
+  }
+  
+  .input-group {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .input-group-text {
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-right: none;
+    color: #6c757d;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .input-group .form-control {
+    border-left: none;
+  }
+  
+  .btn-register {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 10px 20px rgba(106, 17, 203, 0.25);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-register:hover {
+    background: linear-gradient(45deg, #5d0fb5, #1e68e0);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px rgba(106, 17, 203, 0.35);
+  }
+  
+  .btn-register:active {
+    transform: translateY(-1px);
+    
+  } 
+  
+  .form-icon {
+    color: #6a11cb;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  .form-text {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .login-link {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .login-link:hover {
+    color: #6a11cb;
+    text-decoration: underline;
+  }

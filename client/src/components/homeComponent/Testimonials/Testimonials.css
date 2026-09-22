@@ -1,0 +1,17 @@
+
+
+.topics {
+  background-color: #f8f9fa;
+}
+
+.partner-logo {
+  max-height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+}
+

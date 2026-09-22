@@ -1,0 +1,13 @@
+.search-thing {
+  width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 576px) {
+  .search-thing {
+    width: 100%;
+  }
+}

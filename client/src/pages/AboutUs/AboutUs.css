@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.banner_section {
+  background-image: url(../../../About/funny-little-girl-headphones-with-laptop-plays-games-game-addiction-concept\ 1.png);
+  min-height: 404px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_text {
+  padding: 152px 0;
+}
+
+.banner_heading {
+  font-size: 152px;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+.banner_para {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 786px) {
+  .banner_heading {
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .banner_para {
+    text-align: center;
+  }
+}
+
+.about_heading {
+  font-size: 32px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  position: relative;
+  color: #333;
+}
+
+.about_heading::before {
+  content: "";
+  width: 2%;
+  height: 40px;
+  background: #0190F1;
+  display: inline-block;
+  margin-right: 10px;
+  top: 10px;
+  transform: translateX(-50%);
+}
+
+.about_text {
+  font-size: 24px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+
+.about_content,
+.about_contenttwo {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 300; 
+}
+
+.about_text_left {
+  background-image: linear-gradient(to right, #88CFFF, #527C99);
+  border-radius: 30px;
+  min-width: 275px;
+}
+
+@media (max-width: 996px) {
+  .about_section .about_heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .about_section .about_text,
+  .about_section .about_content,
+  .about_section .about_contenttwo {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .about_section .d-flex.align-items-center.justify-content-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about_section img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .about_text_left {
+    margin: 10px auto;
+  }
+}
+
+
+
+.logo-img {
+  max-height: 60px;
+  object-fit: contain;
+}
+
+.logo-container {
+  background-color: #9eacb6;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.our_mission_heading {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.our_mission_heading::before {
+  content: "";
+  width: 2%;
+  height: 50px;
+  background: #0190F1;
+  position: absolute;
+  display: inline-block;
+  margin-right: 10px;
+  top: 10px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.our_mission span {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  min-width: 582px;
+  padding: 32px 0;
+}
+
+.our-mission-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.our-mission-left h4,
+.ongoing h4 {
+  color: #0d6efd;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.our-mission-left span,
+.ongoing span {
+  color: #666;
+  line-height: 1.6;
+}
+
+.our-mission-right img {
+  border-radius: 20px;
+  min-height: 396px;
+  box-shadow: 5px 5px 15px skyblue;
+}
+
+.our-mission-right img.left-top,
+.our-mission-right img.left-bottom {
+  min-height: 191px;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .our-mission-right {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ongoing {
+    margin-right: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+.facilities_section {
+  background-image: linear-gradient(to right, rgb(201, 229, 234), skyblue);
+  padding: 30px 0;
+}
+
+.facilities_logo-img {
+  min-height: 60px;
+}
+
+
+
+.our_service_section h5 {
+  font-size: 24px;
+  font-family: "Lexend", sans-serif;
+}
+
+.our_service_section span {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+}
+

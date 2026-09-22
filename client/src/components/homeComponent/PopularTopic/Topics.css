@@ -1,0 +1,55 @@
+.topics {
+  background-color: #f8f9fa; 
+}
+
+.card1 {
+  background-color: white; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #002B5B !important;
+  color:whitesmoke !important;
+  cursor: pointer;
+  transform: translateY(-5px); 
+}
+
+.card1 p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.row {
+  gap: 20px; 
+}
+
+
+
+
+
+
+
+

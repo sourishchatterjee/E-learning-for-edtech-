@@ -1,0 +1,196 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.course-progress {
+   width: 80px;
+  height: 80px;
+   margin-left: 1rem; 
+}
+ .circular-bar{
+    width: 80px;
+  height: 80px;
+ }
+
+.video-part {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+
+.lesson-comment {
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.lesson-comment strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.lesson-comment p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+textarea.box {
+  resize: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 6px 16px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+
+button.btn-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+button.btn-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .lectures,
+  .course-content {
+    padding: 1rem;
+  }
+
+  .lesson-title {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+.lesson-comment {
+  margin-top: 1.5rem;
+  background-color: #f8f9fa;
+  padding: 1.25rem;
+}
+.lecture-title:hover {
+  background-color: #e9ecef;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+.video-part {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+.lesson-rating {
+  font-size: 18px;
+}
+
+.lesson-comment {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+textarea.box {
+  resize: none;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+.lectures {
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+
+
+
+
+.lecture-item {
+  display: flex;
+  align-items: start;
+  gap: 12px; /* Space between button and title */
+  width: 100%;
+}
+
+.completion-btn {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.completion-btn.completed {
+  background-color: #d1fae5;
+  color: #10b981;
+}
+
+.completion-btn.incomplete {
+  background-color: #fef3c7;
+  color: #f59e0b;
+}
+
+.lecture-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fb923c;
+  cursor: pointer;
+  flex: 1;
+  word-break: break-word;
+  transition: all 0.4s ease;
+}
+
+.lecture-title.active {
+  font-weight: bold;
+  color: #22d3ee !important;
+}
+
+
+

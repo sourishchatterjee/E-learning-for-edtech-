@@ -1,0 +1,254 @@
+/* === Heading Styles === */
+.all-courses-heading {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 700;
+  text-align: center;
+  color: #1a202c;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.all-courses-heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 12px auto 0;
+  background: linear-gradient(90deg, #4f46e5, #3b82f6);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.all-courses-heading:hover::after {
+  width: 80px;
+}
+
+/* === Search Bar Container === */
+.search-bar {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* === Search Input Field === */
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  padding-left: 40px;
+  font-size: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  outline: none;
+  background-color: #f8fafc;
+  color: #2d3748;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+  border-color: #4f46e5;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+}
+
+/* === Search Icon Inside Input (Optional) === */
+.search-bar::before {
+  content: '🔍';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: #94a3b8;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+.search-input:focus + .search-bar::before {
+  color: #4f46e5;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.all-courses-heading {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+/* Category Container */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+/* Category Button Base Style */
+.category-btn {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a5568;
+  background-color: #f7fafc;
+  border: none;
+  border-radius: 999px; /* Pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover Effect */
+.category-btn:hover {
+  background-color: #e2e8f0;
+  color: #2d3748;
+}
+
+/* Active State */
+.category-btn.active {
+  background-color: #4f46e5;
+  color: white;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.category-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4f46e5;
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.5);
+}
+
+/* Optional: Add subtle glow on active focus */
+.category-btn.active:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.25);
+}
+/* === Card Container === */
+.card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* === Image Styling with Overlay Effect on Hover === */
+.card-img-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* === Body Content === */
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8px;
+  min-height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color: #718096;
+  margin-bottom: 12px;
+}
+
+/* === Button Group Styling === */
+.card-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.card-button-group button,
+.card-button-group .btn {
+  flex: 1 1 calc(50% - 4px); /* Two buttons per row with spacing */
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card-button-group button:hover,
+.card-button-group .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Button Styles */
+.card-button-group button:first-child,
+.card-button-group .btn:first-child {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.card-button-group button:first-child:hover,
+.card-button-group .btn:first-child:hover {
+  background-color: #3730a3;
+}
+
+.card-button-group button:nth-child(2),
+.card-button-group .btn:nth-child(2) {
+  background-color: #10b981;
+  color: white;
+}
+
+.card-button-group button:nth-child(2):hover,
+.card-button-group .btn:nth-child(2):hover {
+  background-color: #047857;
+}
+
+.card-button-group button:last-child,
+.card-button-group .btn:last-child {
+  background-color: #ef4444;
+  color: white;
+}
+
+.card-button-group button:last-child:hover,
+.card-button-group .btn:last-child:hover {
+  background-color: #be123c;
+}

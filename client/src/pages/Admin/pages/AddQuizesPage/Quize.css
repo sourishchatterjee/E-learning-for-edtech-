@@ -1,0 +1,296 @@
+/* Beautiful CSS for Add Quiz Questions MUI Form */
+
+/* Main container styling */
+.MuiBox-root {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 2rem !important;
+}
+
+/* Main title styling */
+.MuiTypography-h4 {
+  color: white !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 2rem !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.MuiTypography-h4::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+}
+
+/* Form styling */
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Quiz Title Paper styling */
+.MuiPaper-root:first-of-type {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  margin-bottom: 2rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiPaper-root:first-of-type:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Question Papers styling */
+.MuiPaper-root:not(:first-of-type):not(:last-of-type) {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%) !important;
+  border-radius: 20px !important;
+  padding: 2rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  position: relative;
+  transition: all 0.3s ease !important;
+  overflow: hidden;
+}
+
+.MuiPaper-root:not(:first-of-type):not(:last-of-type)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.MuiPaper-root:not(:first-of-type):not(:last-of-type):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Question number styling */
+.MuiTypography-h6 {
+  color: #2d3748 !important;
+  font-weight: 600 !important;
+  margin-bottom: 1.5rem !important;
+  padding: 0.5rem 1rem !important;
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  border-radius: 25px !important;
+  display: inline-block !important;
+  font-size: 1rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* TextField styling */
+.MuiTextField-root {
+  margin-bottom: 1rem !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 12px !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiOutlinedInput-root:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  transform: translateY(-1px);
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #667eea !important;
+  border-width: 2px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused {
+  background: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #667eea !important;
+  border-width: 2px !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #667eea !important;
+  font-weight: 500 !important;
+}
+
+/* Question text field special styling */
+.MuiTextField-root:first-of-type .MuiOutlinedInput-root {
+  background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%) !important;
+  border-color: #f59e0b !important;
+}
+
+.MuiTextField-root:first-of-type .MuiInputLabel-root.Mui-focused {
+  color: #f59e0b !important;
+}
+
+/* Options styling with different colors */
+.MuiTextField-root:nth-of-type(3) .MuiOutlinedInput-root { /* Option 1 */
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%) !important;
+}
+
+.MuiTextField-root:nth-of-type(4) .MuiOutlinedInput-root { /* Option 2 */
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
+}
+
+.MuiTextField-root:nth-of-type(5) .MuiOutlinedInput-root { /* Option 3 */
+  background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%) !important;
+}
+
+.MuiTextField-root:nth-of-type(6) .MuiOutlinedInput-root { /* Option 4 */
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+}
+
+/* Correct answer field styling */
+.MuiTextField-root:last-of-type .MuiOutlinedInput-root {
+  background: linear-gradient(135deg, #fef7ff 0%, #f3e8ff 100%) !important;
+  border-color: #a855f7 !important;
+}
+
+.MuiTextField-root:last-of-type .MuiInputLabel-root.Mui-focused {
+  color: #a855f7 !important;
+}
+
+/* Submit button styling */
+.MuiButton-contained {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-radius: 16px !important;
+  padding: 1rem 3rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  margin-top: 2rem !important;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3) !important;
+  transition: all 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.MuiButton-contained::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.MuiButton-contained:hover::before {
+  left: 100%;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46a3 100%) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.4) !important;
+}
+
+.MuiButton-contained:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .MuiBox-root {
+    padding: 1rem !important;
+  }
+  
+  form {
+    max-width: 100%;
+  }
+  
+  .MuiPaper-root:not(:first-of-type):not(:last-of-type) {
+    padding: 1.5rem !important;
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 2rem !important;
+  }
+  
+  .MuiButton-contained {
+    padding: 0.875rem 2rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiBox-root {
+    padding: 0.5rem !important;
+  }
+  
+  .MuiPaper-root:not(:first-of-type):not(:last-of-type) {
+    padding: 1rem !important;
+    border-radius: 16px !important;
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 1.75rem !important;
+  }
+  
+  .MuiTypography-h6 {
+    font-size: 0.875rem !important;
+    padding: 0.375rem 0.75rem !important;
+  }
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+/**/
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #f7f7fa, #f7f5f8);
+  border-radius: 4px;
+}
+/**/
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5a67d8, #6b46a3);
+}
+
+/* Animation for form elements */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.MuiPaper-root {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.MuiPaper-root:nth-child(2) { animation-delay: 0.1s; }
+.MuiPaper-root:nth-child(3) { animation-delay: 0.2s; }
+.MuiPaper-root:nth-child(4) { animation-delay: 0.3s; }
+.MuiPaper-root:nth-child(5) { animation-delay: 0.4s; }

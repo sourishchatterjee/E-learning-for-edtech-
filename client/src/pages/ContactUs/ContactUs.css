@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    box-shadow: 0 0 7px grey;
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    width: 100%;
+    height: 40px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0 0 10px;
+    padding: 5px 5px;
+    display: none;
+}
+
+.dropdown-menu ul li {
+    margin-bottom: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 100px;
+    width: 100%;
+    height: 40px;
+}
+
+.contact-us img {
+    max-width: 350px;
+    width: 100%;
+    margin-left: 60%;
+}
+
+.contact-msg {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Lexend", sans-serif;
+    line-height: 96px;
+}
+
+.contact-us p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Lexend", sans-serif;
+}
+
+.contact-us .left-contact {
+    margin-top: 180px;
+}
+
+.contact-us {
+    background-color: #A9D9E380;
+}
+
+/* contact-through start */
+.contact-through {
+    text-align: center;
+}
+
+.contact-through p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.contact-through span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "DM Sans", sans-serif;
+    color: #7F7F7F;
+}
+
+.contact-through a {
+    font-size: 30px;
+    color: blue;
+}
+
+.through-part {
+    padding: 80px 0;
+}
+
+.contact-through h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+}
+
+.contact-through .consider {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    color: #7F7F7F;
+    max-width: 480px;
+    margin: auto;
+}
+
+.maps {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    margin-top: 50px;
+    max-height: 300px;
+    width: 100%;
+    height: 0;
+    min-height: 530px;
+    height: 100%;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.map-f {
+    background-color: whitesmoke;
+}
+
+input,
+label {
+    display: block;
+    max-width: 95%;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px auto;
+}
+
+.form {
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(248, 239, 239);
+    margin: 50px auto;
+    padding: 10px 10px;
+}
+
+#submit {
+    border-radius: 50px;
+    padding: 8px 8px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.send {
+    background-color: #0190F1;
+    color: white;
+    width: 30%;
+}
+
+.msg-part {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+    .fm-main {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .first-ct img {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .first-ct img {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form {
+        max-width: 300px;
+    }
+
+    .through-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maps {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .phone {
+        padding-right: 50%;
+    }
+
+    .through-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us h5 {
+        font-size: 30px;
+        margin-left: 30%;
+    }
+
+    .contact-us p {
+        margin-left: 30%;
+    }
+
+    .consider {
+        font-size: 10px;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    .first-ct h5 {
+        font-size: 13px;
+    }
+
+    .first-ct p {
+        font-size: 10px;
+    }
+
+    .maps {
+        width: 250px;
+    }
+
+    .through-part p {
+        font-size: 15px;
+    }
+
+    .through-part span {
+        font-size: 10px;
+    }
+}
+
+/* location start */
+/* .location {
+    max-width: 900px;
+    width: 100%;
+} */

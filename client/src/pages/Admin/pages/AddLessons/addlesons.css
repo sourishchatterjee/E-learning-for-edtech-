@@ -1,0 +1,163 @@
+/* Simple Modern CSS for AddLessons MUI Component */
+
+/* Container styling */
+.MuiBox-root {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+/* Paper/Card styling */
+.MuiPaper-root {
+  border-radius: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  background: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiPaper-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Title styling */
+.MuiTypography-h5 {
+  font-weight: 600 !important;
+  color: #2d3748 !important;
+  margin-bottom: 2rem !important;
+}
+
+/* TextField styling */
+.MuiTextField-root {
+  margin-bottom: 1.5rem !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #4299e1 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #3182ce !important;
+  border-width: 2px !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #3182ce !important;
+}
+
+/* Upload Button styling */
+.MuiButton-outlined {
+  border-radius: 12px !important;
+  padding: 12px 24px !important;
+  border: 2px dashed #cbd5e0 !important;
+  color: #4a5568 !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+  margin: 1rem 0 !important;
+}
+
+.MuiButton-outlined:hover {
+  border-color: #4299e1 !important;
+  background-color: rgba(66, 153, 225, 0.05) !important;
+  transform: translateY(-1px);
+}
+
+/* Submit Button styling */
+.MuiButton-contained {
+  border-radius: 12px !important;
+  padding: 12px 32px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  box-shadow: none !important;
+  transition: all 0.3s ease !important;
+  margin-top: 1.5rem !important;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46a3 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3) !important;
+}
+
+.MuiButton-contained:disabled {
+  background: #e2e8f0 !important;
+  color: #a0aec0 !important;
+  transform: none !important;
+}
+
+/* Progress section styling */
+.MuiBox-root:has(.MuiLinearProgress-root) {
+  background: rgba(102, 126, 234, 0.05) !important;
+  border-radius: 12px !important;
+  padding: 1rem !important;
+  margin: 1rem 0 !important;
+  border: 1px solid rgba(102, 126, 234, 0.1) !important;
+}
+
+/* Progress bar styling */
+.MuiLinearProgress-root {
+  height: 8px !important;
+  border-radius: 4px !important;
+  background-color: rgba(102, 126, 234, 0.1) !important;
+}
+
+.MuiLinearProgress-bar {
+  background: linear-gradient(90deg, #667eea, #764ba2) !important;
+  border-radius: 4px !important;
+}
+
+/* Progress text styling */
+.MuiTypography-body2 {
+  color: #667eea !important;
+  font-weight: 500 !important;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .MuiBox-root {
+    padding: 1rem 0.5rem;
+  }
+  
+  .MuiPaper-root {
+    padding: 2rem !important;
+    margin: 0 0.5rem;
+  }
+  
+  .MuiTypography-h5 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiPaper-root {
+    padding: 1.5rem !important;
+  }
+  
+  .MuiButton-contained,
+  .MuiButton-outlined {
+    padding: 10px 20px !important;
+  }
+}
+
+/* Focus states for accessibility */
+.MuiButton-root:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}

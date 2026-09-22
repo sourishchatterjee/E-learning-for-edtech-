@@ -1,0 +1,51 @@
+.section_padding {
+  padding: 0px 0px 0px;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.feature-box {
+  flex: 1;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.box_text h3 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.box_text p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .feature-row {
+    flex-direction: column;
+  }
+
+  .feature-box {
+    margin-bottom: 20px;
+  }
+}

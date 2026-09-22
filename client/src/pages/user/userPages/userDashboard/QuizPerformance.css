@@ -1,0 +1,124 @@
+
+
+:root {
+    --sidebar-bg: #0d1830;
+    --sidebar-text: #ffffff;
+    --primary-purple: #d9c3f4;
+    --primary-orange: #ffdac1;
+    --primary-green: #d7f5e7;
+    --primary-blue: #d6ebf7;
+    --light-green: #D4F5EA;
+    --primary: #8884d8;
+    --accent: #00C49F;
+  }
+  
+  .content-wrapper {
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  .quiz-card {
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    background-color: var(--light-green);
+    transition: transform 0.3s ease;
+  }
+  
+  .quiz-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .quiz-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .quiz-card .number {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Chart sections */
+  .quiz-pie-chart,
+  .quiz-bar-chart {
+    min-height: 260px;
+  }
+  
+  /* Responsive layout adjustments */
+  @media (max-width: 992px) {
+    .row-two {
+      flex-direction: column;
+    }
+  
+    .quiz-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .quiz-title {
+      font-size: 0.95rem;
+    }
+  
+    .quiz-card .number {
+      font-size: 1.8rem;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quiz-title {
+      font-size: 0.85rem;
+    }
+  
+    .quiz-card .number {
+      font-size: 1.6rem;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 0.65rem;
+    }
+  }
+  
+
+
+  .legend-container {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .legend-color-box {
+    border-radius: 3px;
+  }
+  

@@ -1,0 +1,165 @@
+/* .banner {
+  background-image: linear-gradient(to bottom, skyblue, rgb(213, 229, 235));
+}
+.courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px; 
+}
+
+.leftpart {
+  max-width: 500px; 
+}
+
+.leftpart h1 {
+  font-size: 36px; 
+  line-height: 1.4;
+}
+
+.leftpart p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.leftpart button {
+  margin-top: 20px;
+}
+
+.rightpart img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .courses {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leftpart {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .rightpart img {
+    max-width: 80%; 
+  }
+}
+ */
+
+
+
+
+/* 
+
+ .banner {
+  background-image: linear-gradient(to bottom, #cce7f6, #eaf7ff);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.banner-heading {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.banner-subtext {
+  font-size: 1rem;
+  color: #555;
+}
+
+.banner-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .banner-img {
+    max-width: 75%;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+} */
+
+
+
+
+.banner {
+  background-image: linear-gradient(to bottom, #cce7f6, #eaf7ff);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.banner-heading {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.banner-subtext {
+  font-size: 1rem;
+  color: #555;
+}
+
+.banner-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Keep < FOCUSED > inline always */
+.nowrap-span {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .banner-subtext {
+    font-size: 0.95rem;
+  }
+
+  .banner-img {
+    max-width: 80%;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+    .banner {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+  .banner-heading {
+    font-size: 1.75rem;
+  }
+
+  .banner-subtext {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.25rem;
+  }
+}

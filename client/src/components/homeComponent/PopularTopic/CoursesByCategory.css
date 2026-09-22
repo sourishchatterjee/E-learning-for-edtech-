@@ -1,0 +1,52 @@
+
+
+/* Card Text */
+.card-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  color: #555;
+}
+.course-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-head{
+  overflow: hidden;
+}
+.card-head img{
+  transition: all 0.4s ease;
+}
+.card:hover img{
+  transform: scale(1.2);
+}
+
+/* Pagination Buttons */
+.page-btn {
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.page-btn.active,
+.page-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Heart Icon Fix */
+.bi-heart-fill {
+  transition: color 0.3s ease;
+}

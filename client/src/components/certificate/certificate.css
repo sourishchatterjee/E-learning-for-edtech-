@@ -1,0 +1,430 @@
+/* 
+
+.certificate-container {
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.certificate {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  border: 10px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  font-family: "Georgia", serif;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.certificate-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.platform-name {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.certificate-body {
+  margin: 30px 0;
+}
+
+.student-name {
+  font-size: 28px;
+  color: #2980b9;
+  margin: 15px 0;
+}
+
+.course-name {
+  font-size: 22px;
+  color: #16a085;
+  font-style: italic;
+}
+
+.completion-date {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.certificate-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.signature-block {
+  text-align: center;
+  flex: 1 1 40%;
+  margin: 10px 0;
+}
+
+.signature-img {
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.download-btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.download-btn,
+.print-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover,
+.print-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .certificate {
+    padding: 20px;
+  }
+
+  .certificate-header h1 {
+    font-size: 28px;
+  }
+
+  .student-name {
+    font-size: 22px;
+  }
+
+  .course-name {
+    font-size: 18px;
+  }
+
+  .certificate-footer {
+    flex-direction: column;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles/certificate.css */
+/* 
+.certificate-container {
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.certificate {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  border: 10px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  font-family: "Georgia", serif;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.certificate-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.platform-name {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.certificate-body {
+  margin: 30px 0;
+}
+
+.student-name {
+  font-size: 28px;
+  color: #2980b9;
+  margin: 15px 0;
+}
+
+.course-name {
+  font-size: 22px;
+  color: #16a085;
+  font-style: italic;
+}
+
+.completion-date {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.certificate-id {
+  font-size: 14px;
+  color: #888;
+  margin-top: 30px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.certificate-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.signature-block {
+  text-align: center;
+  flex: 1 1 40%;
+  margin: 10px 0;
+}
+
+.signature-img {
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.download-btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.download-btn,
+.print-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover,
+.print-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .certificate {
+    padding: 20px;
+  }
+
+  .certificate-header h1 {
+    font-size: 28px;
+  }
+
+  .student-name {
+    font-size: 22px;
+  }
+
+  .course-name {
+    font-size: 18px;
+  }
+
+  .certificate-footer {
+    flex-direction: column;
+  }
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* styles/certificate.css */
+
+.certificate-container {
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.certificate {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  border: 10px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  font-family: "Georgia", serif;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Top-right corner Certificate ID */
+.certificate-id-top {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 13px;
+  color: #777;
+  font-family: monospace;
+}
+
+.certificate-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.platform-name {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.certificate-body {
+  margin: 30px 0;
+}
+
+.student-name {
+  font-size: 28px;
+  color: #2980b9;
+  margin: 15px 0;
+}
+
+.course-name {
+  font-size: 22px;
+  color: #16a085;
+  font-style: italic;
+}
+
+.completion-date {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Old bottom-right certificate ID (if used again) */
+.certificate-id {
+  font-size: 14px;
+  color: #888;
+  margin-top: 30px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.certificate-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.signature-block {
+  text-align: center;
+  flex: 1 1 40%;
+  margin: 10px 0;
+}
+
+.signature-img {
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.download-btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.download-btn,
+.print-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover,
+.print-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .certificate {
+    padding: 20px;
+  }
+
+  .certificate-header h1 {
+    font-size: 28px;
+  }
+
+  .student-name {
+    font-size: 22px;
+  }
+
+  .course-name {
+    font-size: 18px;
+  }
+
+  .certificate-footer {
+    flex-direction: column;
+  }
+
+  .certificate-id-top {
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+  }
+}
