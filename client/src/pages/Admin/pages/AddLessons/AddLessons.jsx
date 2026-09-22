@@ -99,7 +99,7 @@ import {
   Paper,
 } from "@mui/material";
 import addLessons from "../../../../api/adminApiFunctions/addLessons/addLessonsApi";
-import "./addLesons.css";
+import "./addlesons.css";
 const AddLessons = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
