@@ -116,7 +116,7 @@ export const fallbackCategories = [
   "Artificial Intelligence",
   "UI/UX Design",
   "Cloud Computing",
-  "Mobile App Development"
+  "Mobile-App Development"
 ];
 
 export const fallbackReviews = [
