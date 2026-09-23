@@ -4,14 +4,14 @@ A comprehensive EdTech & Learning Management System (LMS) built with **MongoDB**
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🎓 **Interactive Course Catalog & Details**: Browse courses with category filtering, searching, and pagination.
-- 🛡️ **Offline & Backend-Resilient**: Gracefully displays fallback featured courses, categories, and reviews when backend services are offline.
-- 🔐 **Authentication & Role-Based Access**: JWT-based authentication for students and admin dashboards.
-- 🛒 **Wishlist & Cart System**: Interactive wishlist toggle and course enrollment.
-- 📊 **Admin Dashboard**: Manage courses, lectures, quizzes, and comments.
-- 📱 **Responsive Modern UI**: Built with Bootstrap, Lucide/Bootstrap icons, and clean CSS styling.
+-  **Interactive Course Catalog & Details**: Browse courses with category filtering, searching, and pagination.
+-  **Offline & Backend-Resilient**: Gracefully displays fallback featured courses, categories, and reviews when backend services are offline.
+-  **Authentication & Role-Based Access**: JWT-based authentication for students and admin dashboards.
+-  **Wishlist & Cart System**: Interactive wishlist toggle and course enrollment.
+- **Admin Dashboard**: Manage courses, lectures, quizzes, and comments.
+-  **Responsive Modern UI**: Built with Bootstrap, Lucide/Bootstrap icons, and clean CSS styling.
 
 ---
 
@@ -111,7 +111,7 @@ Frontend will run on `http://localhost:5173`.
 
 ---
 
-## 📤 Git Push Instructions
+##  Git Push Instructions
 
 Run the following commands in the root workspace directory:
 
